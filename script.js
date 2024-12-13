@@ -12,7 +12,7 @@ const CLIENT_ID = "a34e83c02f6e439a891f4c2f6ba197fe";
 const isLocalHost = window.location.hostname === "localhost";
 const REDIRECT_URI = isLocalHost
   ? "http://localhost:8080/"
-  : "https://gomeschian.github.io/spotify-random-playlist-maker/";
+  : "https://dotsgo.github.io/spotify-random-playlist-maker/";
 const SCOPES =
   "playlist-read-private playlist-modify-public playlist-modify-private";
 
