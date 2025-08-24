@@ -646,7 +646,7 @@ const createPlaylistAndAddTracks = async () => {
   setCheckboxState(checkboxes, true);
   numberOfSongsBox.disabled = true;
 
-  await compileExclusions();
+  compileExclusions();
 
   songsFound = 0;
   const copyResultsButton = document.getElementById("copyResultsButton");
